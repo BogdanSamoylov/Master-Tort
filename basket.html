@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Вафельные картинки</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/title.css">
+        <link rel="stylesheet" href="css/basket.css">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link rel="shortcut icon" href="imeges/imgonline-com-ua-favicon-QnTj3jPyr8Rg.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Pacifico" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="col-md-3">
+                        <div class="imege">
+                            <img id="logo" src="imeges/%D1%82%D0%BE%D1%80%D1%82-1.png" alt="logo" width="200" height="200">
+                        </div>
+                    </div>
+                    <div class="col-md-auto">
+                        <div class="head">
+                            <p id="head"><b>Вафельные картинки</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <nav>
+                                <ul id="menu d-flex justify-content-center">
+                                    <li class="menu_item"><a href="index.html"><b>Главная</b></a></li>
+                                    <li class="menu_item"><a href="pageTwo.html"><b>Как использовать</b></a></li>
+                                    <li class="menu_item"><a href="pageOne.html"><b>Как заказать</b></a></li>
+                                    <li class="menu_item"><a href="pageThree.html"><b>Оплата и доставка</b></a></li>
+                                    <li class="menu_item"><a href="pageFour.html"><b>Контакты</b></a></li>
+                                    <li class="menu_item"><a href="basket.html"><img src="imeges/icons8-96.png" alt="Корзина"></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <button id="checkout">Оформить заказ</button>
+                </div>
+                <div class="col-md-3">
+                    <button id="clear_cart">Очистить корзину</button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="cart_content"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="cart_content"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <form action="send.php" method="post">
+                            <div id="cart_content" name="cart_content"></div>
+                            <br>
+                            <br>
+                            <input name="first_name" type="text" class="feedback-input" placeholder="Имя">
+                            <input name="email" type="text" class="feedback-input" placeholder="Email">
+                            <input type="text" name="phone" class="feedback-input" placeholder="Телефон">
+                            <textarea rows="5" name="message" cols="30" class="feedback-input" placeholder="Сообщение"></textarea>
+                            <input type="submit" name="submit" value="Отправить" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/basket.js"></script>
+    </body></html>
